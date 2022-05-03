@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about-me.css">
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
     </script>
@@ -17,6 +18,8 @@
             $("#header").load("templates/header.html");
             $("#footer").load("templates/footer.html");
             $("#main").load("templates/main.html");
+            $("#about-me").load("templates/about-me.html");
+
         });
     </script>
 </head>
@@ -24,7 +27,11 @@
 <body>
     <header id="header"></header>
 
-    <main id="main"></main>
+    <main>
+        <section id="main"></section>
+        <section id="about-me"></section>
+
+    </main>
 
     <footer id="footer"></footer>
 </body>
