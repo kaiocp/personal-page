@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
     </script>
@@ -15,18 +16,17 @@
         $(function() {
             $("#header").load("templates/header.html");
             $("#footer").load("templates/footer.html");
+            $("#main").load("templates/main.html");
         });
     </script>
 </head>
 
 <body>
-    <header>
-        <section id="header"></section>
-    </header>
+    <header id="header"></header>
 
-    <footer>
-        <section id="footer"></section>
-    </footer>
+    <main id="main"></main>
+
+    <footer id="footer"></footer>
 </body>
 
 </html>
