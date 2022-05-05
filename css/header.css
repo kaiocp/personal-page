@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--grey-div-background);
-    color: var(--grey-font-color);
-    font-family: var(--font);
     padding: 1rem 0.2rem;
 }
 
