@@ -19,6 +19,10 @@
     color: var(--grey-font-color2);
 }
 
+.main__title span {
+    color: var(--grey1);
+}
+
 .main p {
     font-weight: 400;
     font-size: 1.1rem;
