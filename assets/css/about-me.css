@@ -3,3 +3,7 @@
     flex-direction: column;
     align-items: center;
 }
+
+.about-me p {
+    text-align: justify;
+}
