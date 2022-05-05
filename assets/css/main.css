@@ -41,5 +41,10 @@
     }
     .main__photo {
         width: 20%;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .main__title {
+        font-size: 3rem;
     }
 }
