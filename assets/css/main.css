@@ -1,8 +1,16 @@
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 1rem 0;
+}
+
+.main__desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main__photo {
