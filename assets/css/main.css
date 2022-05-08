@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 .main__desktop {
@@ -16,7 +16,7 @@
 .main__photo {
     width: 100vw;
     border-radius: 50%;
-    max-width: 60%;
+    max-width: 45%;
 }
 
 .main__title {
