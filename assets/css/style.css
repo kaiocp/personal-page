@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap');
 :root {
     --open-sans: 'Open Sans', sans-serif;
+    --black: #212529;
     --grey1: #6C757D;
     --grey-bg: #E9ECEF;
+    --nav-grey-bg: #F8F9FA;
 }
 
 * {
     font-family: var(--open-sans);
-}
-
-body {
-    padding-top: 4rem;
-}
-
-.nav-shadow {
-    box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.15);
+    color: var(--black);
 }

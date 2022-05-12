@@ -16,7 +16,7 @@
 .main__photo {
     width: 100vw;
     border-radius: 50%;
-    max-width: 45%;
+    max-width: 200px;
 }
 
 .main__title {
