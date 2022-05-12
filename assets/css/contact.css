@@ -1,5 +1,69 @@
 #contact {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    row-gap: 3rem;
+}
+
+.contact__information {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.contact__media {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.contact__media-list {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__email {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.contact__email-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+}
+
+.contact__email-form--field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact__email-form--field input,
+textarea {
+    border: 1px solid var(--black);
+    border-radius: 7px;
+    padding: 0.5rem 0 0.5rem 0.7rem;
+}
+
+.contact__email-form--field textarea {
+    resize: none;
+}
+
+.contact__email-form--button button {
+    width: 100%;
+    padding: 0.5rem 0;
+    border: 1px solid var(--grey1);
+    border-radius: 7px;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 0.75rem;
+    align-self: center;
+    text-align: center;
 }
