@@ -1,53 +1,57 @@
 <!-- contatos pessoais (endereço, telefone) -->
 <h2 class="contact__title">Contato</h2>
-<div class="contact__information">
-    <h3>Endereço e telefone</h3>
-    <address class="contact__address">
-            Rua da Palmeira, 95<br>
-            Barra, Salvador/BA
-            <article class="institucional__contato">
-                <p>
-                    <a href="tel:+5571981615607" class="institucional__contato-telefone">(71) 981 615 607</a>
-                </p>
-            </article>
-        </address>
+<div class="contact2">
+    <div class="contact1">
+        <div class="contact__information">
+            <h3>Endereço e telefone</h3>
+            <address class="contact__address">
+                    Rua da Palmeira, 95<br>
+                    Barra, Salvador/BA
+                    <article class="institucional__contato">
+                        <p>
+                            <a href="tel:+5571981615607" class="institucional__contato-telefone">(71) 981 615 607</a>
+                        </p>
+                    </article>
+                </address>
+            <div class="contact__media">
+                <h3>Redes sociais</h3>
+                <ul class="contact__media-list">
+                    <li>
+                        <a href="#"><img src="/assets/img/icons/linkedin.svg" alt="Ícone do LinkedIn"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/assets/img/icons/github.svg" alt="Ícone do GitHub"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/assets/img/icons/gitlab.svg" alt="Ícone do GitLab"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <fieldset class="contact__email">
+        <h3>Entre em contato por e-mail</h3>
+        <form action="post" class="contact__email-form">
+            <div class="contact__email-form--field">
+                <label>Nome</label>
+                <input type="text" placeholder="Seu nome">
+            </div>
+            <div class="contact__email-form--field">
+                <label>E-mail</label>
+                <input type="text" placeholder="Seu melhor e-mail">
+            </div>
+            <div class="contact__email-form--field">
+                <label>Mensagem</label>
+                <textarea placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <div class="contact__email-form--button">
+                <button type="submit" name="enviar">Enviar</button>
+            </div>
+        </form>
+    </fieldset>
 </div>
 
-<!-- links para redes sociais -->
-<div class="contact__media">
-    <h3>Redes sociais</h3>
-    <ul class="contact__media-list">
-        <li>
-            <a href="#"><img src="/assets/img/icons/linkedin.svg" alt="Ícone do LinkedIn"></a>
-        </li>
-        <li>
-            <a href="#"><img src="/assets/img/icons/github.svg" alt="Ícone do GitHub"></a>
-        </li>
-        <li>
-            <a href="#"><img src="/assets/img/icons/gitlab.svg" alt="Ícone do GitLab"></a>
-        </li>
-    </ul>
-</div>
+
+
 
 <!-- email form -->
-
-<fieldset class="contact__email">
-    <h3>Entre em contato por e-mail</h3>
-    <form action="post" class="contact__email-form">
-        <div class="contact__email-form--field">
-            <label>Nome</label>
-            <input type="text" placeholder="Seu nome">
-        </div>
-        <div class="contact__email-form--field">
-            <label>E-mail</label>
-            <input type="text" placeholder="Seu melhor e-mail">
-        </div>
-        <div class="contact__email-form--field">
-            <label>Mensagem</label>
-            <textarea placeholder="Escreva sua mensagem"></textarea>
-        </div>
-        <div class="contact__email-form--button">
-            <button type="submit" name="enviar">Enviar</button>
-        </div>
-    </form>
-</fieldset>
