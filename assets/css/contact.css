@@ -30,12 +30,14 @@
 
 .contact__media-list {
     width: 100vw;
+    max-width: 400px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .contact__email {
     width: 70vw;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
@@ -102,7 +104,7 @@ textarea {
         gap: 2rem;
     }
     .contact__email {
-        width: 40%;
+        max-width: 40%;
         align-self: flex-end;
     }
     .contact__email-form--field {
@@ -119,6 +121,6 @@ textarea {
     }
     .contact__email-form--button {
         align-self: flex-end;
-        width: 50%;
+        width: 30%;
     }
 }
