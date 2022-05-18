@@ -70,12 +70,17 @@ textarea {
     width: 100%;
     padding: 0.5rem 0;
     border: 1px solid var(--grey1);
+    background-color: var(--btn);
     border-radius: 7px;
     color: var(--black);
     font-weight: 700;
     font-size: 0.75rem;
     align-self: center;
     text-align: center;
+}
+
+.contact__email-form--button button:hover {
+    background-color: var(--btn-hover);
 }
 
 @media screen and (min-width: 1024px) {
