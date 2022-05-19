@@ -50,8 +50,8 @@
 }
 
 .portfolio__section p {
-    line-height: 2rem;
-    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -60,6 +60,8 @@
     width: 100%;
     justify-content: space-evenly;
     font-weight: 700;
+    align-self: flex-end;
+    box-sizing: border-box;
 }
 
 .portfolio__section-buttons a {
@@ -74,6 +76,11 @@
 
 .portfolio__section-buttons a:hover {
     background-color: var(--btn-hover);
+}
+
+.portfolio__technologies {
+    align-self: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
