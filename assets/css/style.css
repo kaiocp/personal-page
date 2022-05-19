@@ -12,6 +12,8 @@
 * {
     font-family: var(--open-sans);
     color: var(--black);
+    scroll-behavior: smooth;
+    scroll-margin: 10rem;
 }
 
 h2 {

@@ -5,4 +5,5 @@ $(function() {
     $("#about-me").load("templates/about-me.html");
     $("#contact").load("templates/contact.html");
     $("#portfolio").load("templates/portfolio.html");
+    $("#technologies").load("templates/technologies.html");
 });
