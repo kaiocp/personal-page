@@ -89,6 +89,7 @@
     }
     .portfolio__container {
         flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
         column-gap: 2rem;
     }

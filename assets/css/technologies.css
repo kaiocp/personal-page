@@ -37,11 +37,9 @@
         padding-bottom: 1rem;
     }
     .technologies__desktop {
+        flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
         column-gap: 3rem;
-    }
-    .technologies__tech {
-        width: 250px;
     }
 }
