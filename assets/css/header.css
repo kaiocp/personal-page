@@ -34,11 +34,12 @@
 }
 
 .header__menu a:hover {
-    background: rgba(0, 0, 0, 0.05)
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .highlight {
     background-color: var(--grey-bg);
+    box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (max-width: 1024px) {
