@@ -37,6 +37,10 @@
     background: rgba(0, 0, 0, 0.05)
 }
 
+.highlight {
+    background-color: var(--grey-bg);
+}
+
 @media screen and (max-width: 1024px) {
     .header__nav-btn-mobile {
         display: block;
