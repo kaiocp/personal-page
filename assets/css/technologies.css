@@ -35,11 +35,12 @@
 @media screen and (min-width: 1024px) {
     .technologies {
         padding-bottom: 1rem;
+        width: 80vw;
+        max-width: 1400px;
     }
     .technologies__desktop {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        column-gap: 3rem;
     }
 }
