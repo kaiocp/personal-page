@@ -4,11 +4,17 @@
     align-items: center;
     background-color: var(--grey-bg);
     row-gap: 2rem;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .about-me p {
     text-align: justify;
+}
+
+.about-me__desktop {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 
 .about-me__desktop-box {
