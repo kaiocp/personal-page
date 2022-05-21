@@ -13,7 +13,7 @@
     font-family: var(--open-sans);
     color: var(--black);
     scroll-behavior: smooth;
-    scroll-margin: 8rem;
+    scroll-margin: 6rem;
 }
 
 h2 {
