@@ -13,7 +13,7 @@
     font-family: var(--open-sans);
     color: var(--black);
     scroll-behavior: smooth;
-    scroll-margin: 10rem;
+    scroll-margin: 8rem;
 }
 
 h2 {
@@ -28,4 +28,8 @@ h3 {
 
 p {
     line-height: 1.5rem;
+}
+
+.italic {
+    font-style: italic;
 }
