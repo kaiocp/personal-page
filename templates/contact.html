@@ -28,18 +28,18 @@
     </div>
     <fieldset class="contact__email">
         <h3>Entre em contato por e-mail</h3>
-        <form action="post" class="contact__email-form">
+        <form action="" class="contact__email-form">
             <div class="contact__email-form--field">
-                <label>Nome</label>
-                <input type="text" placeholder="Seu nome">
+                <label for="name">Nome</label>
+                <input name="name" type="text" placeholder="Seu nome" id="form-field">
             </div>
             <div class="contact__email-form--field">
-                <label>E-mail</label>
-                <input type="text" placeholder="Seu melhor e-mail">
+                <label for="email">E-mail</label>
+                <input name="email" type="text" placeholder="Seu melhor e-mail" id="form-field">
             </div>
             <div class="contact__email-form--field">
-                <label>Mensagem</label>
-                <textarea placeholder="Escreva sua mensagem"></textarea>
+                <label for="message">Mensagem</label>
+                <textarea name="message" placeholder="Escreva sua mensagem" id="form-field"></textarea>
             </div>
             <div class="contact__email-form--button">
                 <button type="submit" name="enviar">Enviar</button>
@@ -47,3 +47,5 @@
         </form>
     </fieldset>
 </div>
+
+<script src="assets/js/messages.js"></script>
