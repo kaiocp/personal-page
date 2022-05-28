@@ -1,5 +1,5 @@
 const form = document.querySelector('.contact__email-form');
-const messagesBox = document.getElementById('messages')
+const messagesBox = document.getElementById('messages');
 
 let clientMessages = JSON.parse(localStorage.getItem("client_messages")) || [];
 
@@ -23,6 +23,13 @@ function makeMessagesBoxHTML() {
     })
 }
 
+function cleanMessages() {
+    localStorage.clear();
+    clientMessages = [];
+    makeMessagesBoxHTML();
+    location.reload();
+}
+
 if (form) {
     form.addEventListener('submit', (ev) => {
         ev.preventDefault();
@@ -44,6 +51,6 @@ if (form) {
     });
 }
 
-if (clientMessages.length >= 1) {
+if ((clientMessages.length >= 1) && (messagesBox)) {
     makeMessagesBoxHTML();
 }
